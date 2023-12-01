@@ -1,0 +1,3 @@
+Dans ce fichier nous avons tout les packages à installer dans le terminal. Pour rentrer dans le terminal vous effectuer :
+
+1) Appuyer les touches Win+X pour ouvrir le menu déroulant
