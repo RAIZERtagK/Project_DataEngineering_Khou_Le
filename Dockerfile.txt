@@ -12,7 +12,7 @@ COPY data_filtering.py .
 COPY main.py .
 
 # Installer les dépendances nécessaires
-COPY requirement.txt
+COPY requirement.txt .
 RUN pip install -r requirement.txt
 
 # Exécuter le script principal lors du démarrage du conteneur
