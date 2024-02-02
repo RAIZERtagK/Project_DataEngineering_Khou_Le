@@ -1,0 +1,19 @@
+# Utiliser une image Python officielle
+FROM python:3.8
+
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /app
+
+# Copier les fichiers Python dans le conteneur
+COPY visualisation.py .
+COPY data_cleaning.py .
+COPY data_collecting.py .
+COPY data_filtering.py .
+COPY main.py .
+
+# Installer les dépendances nécessaires
+COPY requirement.txt .
+RUN pip install -r requirement.txt
+
+# Exécuter le script principal lors du démarrage du conteneur
+CMD ["python", "main.py"]

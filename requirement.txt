@@ -7,4 +7,8 @@ Si vous n'avez pas téléchargé avant PipEnv :
   python -m pip install pipenv
 
 Puis installait les librairies suivantes avec les lignes suivantes :
-  Scrappy : pip install pipenv install scrapy
+  Scrappy : python -m pipenv install scrapy
+  Dash : python -m pipenv install dash 
+  Bootstrap : python -m pipenv install dash-bootstrap-components 
+  Plotly : python -m pipenv install plotly
+  Panda : python -m pipenv install panda
